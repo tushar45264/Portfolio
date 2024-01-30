@@ -6,7 +6,7 @@ export const details = {
         lastName: "Tiwari",
         role: "Web Developer",
         about: "Pre-Final Year Electronics and Communications Student at Indian Institute of Information Technology, Ranchi. Passionate about Web Dev!",
-        email:"tushar.21ug2028@iiitranchi.ac.in",
+        email:"tushar21tiwari@gmail.com",
         gitHub: "https://github.com/tushar45264",
         instaGram: "https://www.instagram.com/tushar____45/",
         linkedIn: "https://www.linkedin.com/in/tushar-tiwari-a44902228/",
@@ -36,7 +36,7 @@ export const project = [
         img: "./4.png",
         des: "Real-time chat app with Next.js, Tailwind, TypeScript, and Pusher. 60% response time decrease, 30% user satisfaction increase. JWT auth, group chat, media sharing, MongoDB.",
         tech: ["Next.js v13", "Pusher", "Tailwind CSS", "API", "Typescript"],
-        link: "https://github.com/utkarsh0908/Table-Ordering"
+        link: "https://github.com/tushar45264/VibeVerse"
     },
     {
         id: "2",
@@ -44,7 +44,7 @@ export const project = [
         img: "./6.png",
         des: "Extensive MERN stack e-commerce platform. Stripe integration, robust user auth, RESTful API, real-time updates.",
         tech: ["MERN", "Stripe", "Material-UI"],
-        link: "https://github.com/utkarsh0908/Store"
+        link: "https://github.com/tushar45264/E-Commerce"
     },
     {
         id: "3",
@@ -52,7 +52,7 @@ export const project = [
         img: "./2.png",
         des: "Secure blog website with ExpressJs, Bootstrap, MongoDB, and Ejs. 2x faster rendering, user-friendly.",
         tech: ["ExpressJs", "Bootstrap", "EJs"],
-        link: "https://github.com/utkarsh0908/SecretHub"
+        link: "https://github.com/tushar45264/Blog-Website"
     },
     {
         id: "4",
@@ -60,6 +60,6 @@ export const project = [
         img: "./3.png",
         des: "Hotstar Clone with React, Redux, Styled Components, and Firebase. Managed state, real-time data, user auth.",
         tech: ["React", "Redux", "Styled Comp", "API", "Firebase"],
-        link: "https://github.com/utkarsh0908/WeatherApp"
+        link: "https://github.com/tushar45264/Hotstar-Clone"
     }
 ]

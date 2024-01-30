@@ -15,7 +15,7 @@ const Home = () => {
     <div className="flex min-h-screen w-screen flex-col items-center justify-center bg-black text-secondary">
       <Head>
         <title>{details.firstName} {details.lastName} - Portfolio</title>
-        <link rel="icon" href="./i.ico" />
+        <link rel="icon" href="./favicon.ico" />
       </Head>
 
       <div className="flex flex-row w-full">
