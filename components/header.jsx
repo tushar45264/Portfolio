@@ -12,6 +12,15 @@ const header = () => {
               className="cursor-pointer m-4 mt-8 text-xs text-main"><span className="mr-2 text-blue-500 font-normal">
               01.</span>About
           </Link>
+          <Link activeClass='active'
+              to="experience"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="cursor-pointer m-4 mt-8 text-xs text-main"><span className="mr-2 text-blue-500 font-normal">
+              02.</span> Experience
+          </Link>
           <Link activeClass="active"
               
               to="technologies"
@@ -20,17 +29,17 @@ const header = () => {
               offset={-100}
               duration={500} 
               className="cursor-pointer m-4 mt-8 text-xs text-main"><span className="mr-2 text-blue-500 font-normal">
-              02.</span>Technologies
+              03.</span>Technologies
           </Link>
           <Link activeClass="active"
-              
+ 
               to="projects"
               spy={true}
               smooth={true}
               offset={-100}
               duration={500} 
               className="cursor-pointer m-4 mt-8 text-xs text-main"><span className="mr-2 text-blue-500 font-normal">
-              03.</span>Projects
+              04.</span>Projects
           </Link>
           <Link activeClass="active"
               
@@ -40,7 +49,7 @@ const header = () => {
               offset={-100}
               duration={500} 
               className="cursor-pointer m-4 mt-8 text-xs text-main"><span className="mr-2 text-blue-500 font-normal">
-              04.</span>Contact
+              05.</span>Contact
           </Link>
         
     </div>
