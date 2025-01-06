@@ -9,6 +9,7 @@ import Header from "../components/header";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 import {details} from '../edit/data';
+import Experience from '../components/experience';
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         <div className="flex flex-col w-full md:w-11/12 font-Space">
           <Header/>
           <About />
+          <Experience />
           <Technologies />
           <Projects />
           <Contact />
