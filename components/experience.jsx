@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Experience = () => {
@@ -9,6 +10,7 @@ const Experience = () => {
             start: 'AUG 2024',
             end: 'Present',
             location: 'Bengaluru, Karnataka',
+            link: 'https://marianaai.com'
         },
         {
             logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQEbNJET8cw0_Q/company-logo_200_200/company-logo_200_200/0/1630568526588/fintricity_logo?e=1744243200&v=beta&t=vwS4TZiSinIks9PTX7e5G1ruLnhM0F-0JiN5dEZDFhg', // Replace with your company logo URL
@@ -17,6 +19,7 @@ const Experience = () => {
             start: 'April 2024',
             end: 'AUG 2024',
             location: 'Remote',
+            link: 'https://fintricity.com'
         },
     ];
 
@@ -45,15 +48,19 @@ const Experience = () => {
                         key={index}
                         className="flex flex-row gap-4 justify-start mr-20 my-6 md:my-16 rounded-md p-4 shadow-md"
                     > 
+                        <Link href={item.link}>
                         <img
                             src={item.logo}
                             alt={`${item.companyName} logo`}
-                            className="w-16 h-16 mb-4 rounded-lg"
+                            className="w-16 h-16 mb-4 rounded-lg cursor-pointer"
                         />
+                        </Link>
                         <div> 
-                        <div className="text-blue-600 font-semibold opacity-[.95] text-xl md:text-3xl">
+                        <Link href={item.link}>
+                        <div className="text-blue-600 cursor-pointer font-semibold opacity-[.95] text-xl md:text-3xl">
                             {item.companyName}
                         </div>
+                        </Link>
                         <div className="text-main font-light text-sm md:text-base font-Space mt-2 opacity-[.70]">
                             {item.role}
                         </div>
